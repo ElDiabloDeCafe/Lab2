@@ -13,7 +13,7 @@
 * Добавление лайка к заметке
 Чтобы пользователь добавил лайк к какой-либо заметке, он должен нажать на картинку лайка справа, снизу, внутри окна заметки. После чего, страница обновится и к счётчику лайков прибавится один лайк.
 
-![](https://github.com/ElDiabloDeCafe/lab2/blob/main/schemes/ex_like.png)
+![image](https://user-images.githubusercontent.com/90632033/211562364-bc30c74f-ce94-4ac2-908c-aac0bed24926.png)
 
 ![](https://github.com/ElDiabloDeCafe/lab2/blob/main/schemes/add_like.png)
 
