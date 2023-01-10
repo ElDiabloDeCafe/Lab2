@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	background: #181818;
+}
+
+a {
+	margin-top: 5%;
+	font: italic small-caps bold 16px/2 cursive;
+	color: #fff;
+	margin-left: 5%;
+	padding: 10px;
+}
+
+button {
+	border: none;
+	width: 44px;
+	height: 34px;
+	vertical-align: middle;
+	background: #2d2d2d url(../img/mail.png) no-repeat 50% 50%;
+	color: white;
+	margin-left: 5%;
+	border-radius: 5px;
+	font: italic small-caps bold 16px/2 cursive;
+	cursor: pointer;
+}
+
+textarea {
+	color: white;
+	background-color: #2d2d2d;
+	font: italic small-caps bold 16px/2 cursive;
+	height: 50px;
+	width: 87%;
+	margin-left: 5%;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+}
+.like_button {
+	float: right;
+	vertical-align: bottom;
+	background: #2d2d2d url(../img/like.png) no-repeat 20% 20%;
+}
+
+
+.comment {
+	color: white;
+	border: 2px solid;
+	border-radius: 15px;
+	font: italic small-caps bold 16px/2 cursive;
+	width: 87%;
+	margin-left: 5%;
+	height: auto;
+	padding: 10px;
+	background-color: #2d2d2d;
+	word-break: break-all;
+}
+
+.center {
+	margin: 10px 0 0 0;
+	width: 58%;
+	border-radius: 10px;
+	margin: 0 auto;
+	background-color: #3d3d3d;
+}
+
+.centertext {
+	color: white;
+	font: italic small-caps bold 16px/2 cursive;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	border: none;
+}
+
+.header {
+	width: 100%;
+	height: 75px;
+	background-color: #2d2d2d;
+	justify-content: left;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.notes {
+	margin-left: 30px;
+	display: flex;
+	justify-content: unset;
+	font: italic small-caps bold 16px/2 cursive;
+	padding-top: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+	font-style: italic;
+}
+
+.last100 {
+	font: italic small-caps bold 16px/2 cursive;
+	font-stretch: semi-expanded;
+	font-style: italic;
+	font-size: 30px;
+	margin-left: 2%;
+	color: #ffffff;
+	border: none;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.like_button:hover {
+	animation: bounce 1s;
+}
